@@ -24,8 +24,7 @@ function Orders() {
         <div className="orders-container">
             <StepsReader />
             <ProductsList products={products} />
-            <OrderLocation />
-            
+            <OrderLocation onChangeLocation={location => setOrderLocation(location)} />
         </div>
     )
 }

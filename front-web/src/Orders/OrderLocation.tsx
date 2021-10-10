@@ -29,7 +29,7 @@ type Props = {
     }); 
 
     const loadOptions = async (inputValue: string, callback: (places: Place[]) => void) => {
-        const response = await fetchLocalMapBox(inputValue);
+      //  const response = await fetchLocalMapBox(inputValue);
       
    //    const places = response.data.features.map((item: any) => {
           return ({
